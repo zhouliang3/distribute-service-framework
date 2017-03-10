@@ -1,0 +1,1 @@
+zookeeper=com.ctg.itrdc.janus.registry.zookeeper.ZookeeperRegistryFactory

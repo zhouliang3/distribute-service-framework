@@ -1,0 +1,3 @@
+registries=com.ctg.itrdc.janus.registry.pages.RegistriesPageHandler
+registered=com.ctg.itrdc.janus.registry.pages.RegisteredPageHandler
+subscribed=com.ctg.itrdc.janus.registry.pages.SubscribedPageHandler

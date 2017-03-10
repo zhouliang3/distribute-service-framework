@@ -1,0 +1,3 @@
+file=com.ctg.itrdc.janus.rpc.cluster.router.file.FileRouterFactory
+script=com.ctg.itrdc.janus.rpc.cluster.router.script.ScriptRouterFactory
+condition=com.ctg.itrdc.janus.rpc.cluster.router.condition.ConditionRouterFactory

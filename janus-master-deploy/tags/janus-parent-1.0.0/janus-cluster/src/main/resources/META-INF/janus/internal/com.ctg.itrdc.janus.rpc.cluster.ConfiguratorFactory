@@ -1,0 +1,2 @@
+override=com.ctg.itrdc.janus.rpc.cluster.configurator.override.OverrideConfiguratorFactory
+absent=com.ctg.itrdc.janus.rpc.cluster.configurator.absent.AbsentConfiguratorFactory

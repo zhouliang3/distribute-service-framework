@@ -1,0 +1,2 @@
+    spring=com.ctg.itrdc.janus.config.spring.status.SpringStatusChecker
+datasource=com.ctg.itrdc.janus.config.spring.status.DataSourceStatusChecker

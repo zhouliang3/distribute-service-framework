@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:janus="http://itrdc.ctg.com/schema/janus"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://itrdc.ctg.com/schema/janus http://itrdc.ctg.com/schema/janus/janus.xsd">
+
+    <janus:application name="demo-consumer" owner="programmer" organization="itrdc"/>
+
+    <janus:registry dsn="zk_001"/>
+    <!-- 资源的配置与原先配置janus的方式一致-->
+
+    <!--uncomment this if you want to test janus's monitor-->
+    <!--<janus:monitor protocol="registry"/>-->
+
+    <janus:reference id="bidService" interface="com.ctg.itrdc.janus.demo.bid.BidService"/>
+    <!--inote 暂时注释掉 隔离测试
+    <janus:reference id="anotherUserRestService" interface="com.ctg.itrdc.janus.demo.user.facade.AnotherUserRestService"/>
+    -->
+    <!-- directly connect to provider to simulate the access to non-janus rest services -->
+    <!--<janus:reference id="anotherUserRestService" interface="com.alibaba.janus.demo.user.facade.AnotherUserRestService" url="rest://localhost:8888/services/"/>-->
+
+</beans>

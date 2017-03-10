@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:janus="http://itrdc.ctg.com/schema/janus"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://itrdc.ctg.com/schema/janus http://itrdc.ctg.com/schema/janus/janus.xsd">
+    <bean id="demo.local" class="com.ctg.itrdc.janus.rpc.benchmark.DemoServiceImpl"/>
+
+
+    <bean id="persistPropertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE"/>
+        <property name="ignoreResourceNotFound" value="true"/>
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+        <property name="locations">
+            <list>
+                <value>classpath:janus-default.properties</value>
+                <value>classpath:janus.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <janus:registry address="N/A"/>
+
+    <!-- 服务应用配置 -->
+    <janus:application name="janus_provider"/>
+
+    <!-- 服务提供者全局配置 -->
+    <janus:protocol name="janus" port="20885"/>
+
+    <!-- 服务提供者暴露服务配置 -->
+    <janus:service id="helloService" interface="com.ctg.itrdc.janus.rpc.benchmark.DemoService"
+                   ref="demo.local"/>
+
+</beans>

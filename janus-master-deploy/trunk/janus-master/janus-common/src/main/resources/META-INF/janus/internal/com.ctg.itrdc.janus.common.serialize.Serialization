@@ -1,0 +1,7 @@
+janus=com.ctg.itrdc.janus.common.serialize.support.janus.JanusSerialization
+hessian2=com.ctg.itrdc.janus.common.serialize.support.hessian.Hessian2Serialization
+java=com.ctg.itrdc.janus.common.serialize.support.java.JavaSerialization
+compactedjava=com.ctg.itrdc.janus.common.serialize.support.java.CompactedJavaSerialization
+fastjson=com.ctg.itrdc.janus.common.serialize.support.json.FastJsonSerialization
+nativejava=com.ctg.itrdc.janus.common.serialize.support.nativejava.NativeJavaSerialization
+kryo=com.ctg.itrdc.janus.common.serialize.support.kryo.KryoSerialization

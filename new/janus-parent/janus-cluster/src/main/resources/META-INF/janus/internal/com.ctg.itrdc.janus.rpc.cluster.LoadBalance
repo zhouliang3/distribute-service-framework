@@ -1,0 +1,4 @@
+random=com.ctg.itrdc.janus.rpc.cluster.loadbalance.RandomLoadBalance
+roundrobin=com.ctg.itrdc.janus.rpc.cluster.loadbalance.RoundRobinLoadBalance
+leastactive=com.ctg.itrdc.janus.rpc.cluster.loadbalance.LeastActiveLoadBalance
+consistenthash=com.ctg.itrdc.janus.rpc.cluster.loadbalance.ConsistentHashLoadBalance

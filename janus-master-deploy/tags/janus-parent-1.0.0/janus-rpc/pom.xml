@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+
+        <module>janus-rpc-api</module>
+        <module>janus-rpc-default</module>
+        <module>janus-rpc-http</module>
+        <module>janus-rpc-injvm</module>
+        <module>janus-rpc-rest</module>
+        <module>janus-rpc-rmi</module>
+    </modules>
+    <parent>
+        <groupId>com.ctg.itrdc</groupId>
+        <artifactId>janus-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>janus-rpc</artifactId>
+</project>

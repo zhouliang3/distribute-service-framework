@@ -1,0 +1,1 @@
+memcached=com.ctg.itrdc.janus.rpc.protocol.memcached.MemcachedProtocol

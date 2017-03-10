@@ -1,0 +1,11 @@
+map=com.ctg.itrdc.janus.rpc.cluster.merger.ListMerger
+set=com.ctg.itrdc.janus.rpc.cluster.merger.SetMerger
+list=com.ctg.itrdc.janus.rpc.cluster.merger.MapMerger
+byte=com.ctg.itrdc.janus.rpc.cluster.merger.ByteArrayMerger
+char=com.ctg.itrdc.janus.rpc.cluster.merger.CharArrayMerger
+short=com.ctg.itrdc.janus.rpc.cluster.merger.ShortArrayMerger
+int=com.ctg.itrdc.janus.rpc.cluster.merger.IntArrayMerger
+long=com.ctg.itrdc.janus.rpc.cluster.merger.LongArrayMerger
+float=com.ctg.itrdc.janus.rpc.cluster.merger.FloatArrayMerger
+double=com.ctg.itrdc.janus.rpc.cluster.merger.DoubleArrayMerger
+boolean=com.ctg.itrdc.janus.rpc.cluster.merger.BooleanArrayMerger

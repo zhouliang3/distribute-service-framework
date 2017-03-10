@@ -1,0 +1,3 @@
+servlet=com.ctg.itrdc.janus.remoting.http.servlet.ServletHttpBinder
+jetty=com.ctg.itrdc.janus.remoting.http.jetty.JettyHttpBinder
+tomcat=com.ctg.itrdc.janus.remoting.http.tomcat.TomcatHttpBinder

@@ -1,0 +1,7 @@
+ls=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.ListTelnetHandler
+ps=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.PortTelnetHandler
+cd=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.ChangeTelnetHandler
+pwd=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.CurrentTelnetHandler
+invoke=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.InvokeTelnetHandler
+trace=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.TraceTelnetHandler
+count=com.ctg.itrdc.janus.rpc.protocol.janus.telnet.CountTelnetHandler

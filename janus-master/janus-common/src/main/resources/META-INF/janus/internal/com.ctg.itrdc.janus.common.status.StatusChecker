@@ -1,0 +1,2 @@
+memory=com.ctg.itrdc.janus.common.status.support.MemoryStatusChecker
+load=com.ctg.itrdc.janus.common.status.support.LoadStatusChecker

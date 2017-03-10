@@ -1,0 +1,3 @@
+adaptive=com.ctg.itrdc.janus.common.compiler.support.AdaptiveCompiler
+jdk=com.ctg.itrdc.janus.common.compiler.support.JdkCompiler
+javassist=com.ctg.itrdc.janus.common.compiler.support.JavassistCompiler

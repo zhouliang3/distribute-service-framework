@@ -1,0 +1,2 @@
+adaptive=com.ctg.itrdc.janus.common.extensionloader.adaptive.impl.HasAdaptiveExt_ManualAdaptive
+impl1=com.ctg.itrdc.janus.common.extensionloader.adaptive.impl.HasAdaptiveExtImpl1

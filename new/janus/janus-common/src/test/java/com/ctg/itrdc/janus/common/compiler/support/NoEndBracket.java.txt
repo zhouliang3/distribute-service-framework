@@ -1,0 +1,9 @@
+package com.ctg.itrdc.janus.common.compiler.support;
+
+public class TestSource {
+
+	private int pro1;
+
+	public void method1() {
+		System.out.println(pro1);
+

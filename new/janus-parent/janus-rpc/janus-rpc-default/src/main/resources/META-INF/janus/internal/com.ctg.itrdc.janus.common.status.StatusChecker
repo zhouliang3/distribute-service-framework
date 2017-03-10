@@ -1,0 +1,2 @@
+server=com.ctg.itrdc.janus.rpc.protocol.janus.status.ServerStatusChecker
+threadpool=com.ctg.itrdc.janus.rpc.protocol.janus.status.ThreadPoolStatusChecker

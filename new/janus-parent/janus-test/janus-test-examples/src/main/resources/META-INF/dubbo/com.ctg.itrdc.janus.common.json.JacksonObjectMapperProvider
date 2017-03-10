@@ -1,0 +1,1 @@
+default=com.ctg.itrdc.janus.examples.jackson.jacksonprovider.CustomJacksonObjectMapperProvider

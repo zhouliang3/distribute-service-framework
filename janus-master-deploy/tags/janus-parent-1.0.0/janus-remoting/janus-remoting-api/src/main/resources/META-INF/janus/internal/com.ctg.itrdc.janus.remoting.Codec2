@@ -1,0 +1,3 @@
+transport=com.ctg.itrdc.janus.remoting.transport.codec.TransportCodec
+telnet=com.ctg.itrdc.janus.remoting.telnet.codec.TelnetCodec
+exchange=com.ctg.itrdc.janus.remoting.exchange.codec.ExchangeCodec

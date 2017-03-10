@@ -1,0 +1,5 @@
+all=com.ctg.itrdc.janus.remoting.transport.dispatcher.all.AllDispatcher
+direct=com.ctg.itrdc.janus.remoting.transport.dispatcher.direct.DirectDispatcher
+message=com.ctg.itrdc.janus.remoting.transport.dispatcher.message.MessageOnlyDispatcher
+execution=com.ctg.itrdc.janus.remoting.transport.dispatcher.execution.ExecutionDispatcher
+connection=com.ctg.itrdc.janus.remoting.transport.dispatcher.connection.ConnectionOrderedDispatcher

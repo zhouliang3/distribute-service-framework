@@ -1,0 +1,4 @@
+impl1=com.ctg.itrdc.janus.common.extensionloader.ext6_wrap.impl.Ext5Impl1
+impl2=com.ctg.itrdc.janus.common.extensionloader.ext6_wrap.impl.Ext5Impl2
+wrapper1=com.ctg.itrdc.janus.common.extensionloader.ext6_wrap.impl.Ext5Wrapper1
+wrapper2=com.ctg.itrdc.janus.common.extensionloader.ext6_wrap.impl.Ext5Wrapper2

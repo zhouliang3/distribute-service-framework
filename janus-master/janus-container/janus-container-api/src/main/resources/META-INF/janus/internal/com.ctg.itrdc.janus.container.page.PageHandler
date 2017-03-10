@@ -1,0 +1,4 @@
+index=com.ctg.itrdc.janus.container.page.pages.HomePageHandler
+status=com.ctg.itrdc.janus.container.page.pages.StatusPageHandler
+log=com.ctg.itrdc.janus.container.page.pages.LogPageHandler
+system=com.ctg.itrdc.janus.container.page.pages.SystemPageHandler

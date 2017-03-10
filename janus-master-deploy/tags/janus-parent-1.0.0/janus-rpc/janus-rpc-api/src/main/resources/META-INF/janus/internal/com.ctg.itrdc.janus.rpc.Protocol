@@ -1,0 +1,3 @@
+filter=com.ctg.itrdc.janus.rpc.protocol.ProtocolFilterWrapper
+listener=com.ctg.itrdc.janus.rpc.protocol.ProtocolListenerWrapper
+mock=com.ctg.itrdc.janus.rpc.support.MockProtocol

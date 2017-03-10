@@ -1,0 +1,2 @@
+servers=com.ctg.itrdc.janus.rpc.protocol.janus.page.ServersPageHandler
+clients=com.ctg.itrdc.janus.rpc.protocol.janus.page.ClientsPageHandler

@@ -1,0 +1,4 @@
+slf4j=com.ctg.itrdc.janus.common.logger.slf4j.Slf4jLoggerAdapter
+jcl=com.ctg.itrdc.janus.common.logger.jcl.JclLoggerAdapter
+log4j=com.ctg.itrdc.janus.common.logger.log4j.Log4jLoggerAdapter
+jdk=com.ctg.itrdc.janus.common.logger.jdk.JdkLoggerAdapter

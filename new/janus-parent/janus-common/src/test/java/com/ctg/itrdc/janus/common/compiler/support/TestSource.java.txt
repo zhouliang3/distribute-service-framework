@@ -1,0 +1,12 @@
+package com.ctg.itrdc.janus.common.compiler.support;
+
+public class TestSource {
+
+	public void method1() {
+		System.out.println("method1");
+	}
+
+	private void method2() {
+		System.out.println("method2");
+	}
+}

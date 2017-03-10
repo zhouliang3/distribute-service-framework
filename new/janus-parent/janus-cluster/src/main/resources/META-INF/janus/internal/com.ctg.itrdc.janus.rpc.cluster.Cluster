@@ -1,0 +1,9 @@
+mock=com.ctg.itrdc.janus.rpc.cluster.support.wrapper.MockClusterWrapper
+failover=com.ctg.itrdc.janus.rpc.cluster.support.FailoverCluster
+failfast=com.ctg.itrdc.janus.rpc.cluster.support.FailfastCluster
+failsafe=com.ctg.itrdc.janus.rpc.cluster.support.FailsafeCluster
+failback=com.ctg.itrdc.janus.rpc.cluster.support.FailbackCluster
+forking=com.ctg.itrdc.janus.rpc.cluster.support.ForkingCluster
+available=com.ctg.itrdc.janus.rpc.cluster.support.AvailableCluster
+mergeable=com.ctg.itrdc.janus.rpc.cluster.support.MergeableCluster
+broadcast=com.ctg.itrdc.janus.rpc.cluster.support.BroadcastCluster

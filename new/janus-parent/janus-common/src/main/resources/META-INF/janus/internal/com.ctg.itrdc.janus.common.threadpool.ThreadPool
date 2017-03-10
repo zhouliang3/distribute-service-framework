@@ -1,0 +1,3 @@
+fixed=com.ctg.itrdc.janus.common.threadpool.support.fixed.FixedThreadPool
+cached=com.ctg.itrdc.janus.common.threadpool.support.cached.CachedThreadPool
+limited=com.ctg.itrdc.janus.common.threadpool.support.limited.LimitedThreadPool

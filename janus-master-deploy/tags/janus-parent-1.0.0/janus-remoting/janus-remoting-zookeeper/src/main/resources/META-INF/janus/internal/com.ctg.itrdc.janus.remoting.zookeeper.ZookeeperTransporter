@@ -1,0 +1,2 @@
+zkclient=com.ctg.itrdc.janus.remoting.zookeeper.zkclient.ZkclientZookeeperTransporter
+curator=com.ctg.itrdc.janus.remoting.zookeeper.curator.CuratorZookeeperTransporter

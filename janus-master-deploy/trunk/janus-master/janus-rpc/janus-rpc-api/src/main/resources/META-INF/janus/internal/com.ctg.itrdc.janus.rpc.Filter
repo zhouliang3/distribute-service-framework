@@ -1,0 +1,14 @@
+echo=com.ctg.itrdc.janus.rpc.filter.EchoFilter
+generic=com.ctg.itrdc.janus.rpc.filter.GenericFilter
+genericimpl=com.ctg.itrdc.janus.rpc.filter.GenericImplFilter
+token=com.ctg.itrdc.janus.rpc.filter.TokenFilter
+accesslog=com.ctg.itrdc.janus.rpc.filter.AccessLogFilter
+activelimit=com.ctg.itrdc.janus.rpc.filter.ActiveLimitFilter
+classloader=com.ctg.itrdc.janus.rpc.filter.ClassLoaderFilter
+context=com.ctg.itrdc.janus.rpc.filter.ContextFilter
+consumercontext=com.ctg.itrdc.janus.rpc.filter.ConsumerContextFilter
+exception=com.ctg.itrdc.janus.rpc.filter.ExceptionFilter
+executelimit=com.ctg.itrdc.janus.rpc.filter.ExecuteLimitFilter
+deprecated=com.ctg.itrdc.janus.rpc.filter.DeprecatedFilter
+compatible=com.ctg.itrdc.janus.rpc.filter.CompatibleFilter
+timeout=com.ctg.itrdc.janus.rpc.filter.TimeoutFilter
